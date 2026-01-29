@@ -9,4 +9,4 @@
 3) Sum MEM Usage for a Specific User
   - ps -U user1 --format %mem | awk '{memory +=$1}; END {print memory}'
 4) Sum MEM Usage for The Curent User
-  - ps -U $USER --format %mem | awk '{memory +=$1}; END {print memory}'****
+  - ps -U $USER --format %mem | awk '{memory +=$1}; END {print memory}'
