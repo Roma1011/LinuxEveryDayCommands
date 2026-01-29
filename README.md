@@ -10,3 +10,5 @@
   - ps -U user1 --format %mem | awk '{memory +=$1}; END {print memory}'
 4) Sum MEM Usage for The Curent User
   - ps -U $USER --format %mem | awk '{memory +=$1}; END {print memory}'
+5) Process Tree
+  - pstree -p
