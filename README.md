@@ -12,3 +12,10 @@
   - ps -U $USER --format %mem | awk '{memory +=$1}; END {print memory}'
 5) Process Tree
   - pstree -p
+
+
+
+
+### File viewing / File inspection
+1) tail -f show loggs in live action
+  - tail -f /var/log/nginx/access.log
