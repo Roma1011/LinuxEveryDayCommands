@@ -19,3 +19,9 @@
 ### File viewing / File inspection
 1) tail -f show loggs in live action
   - tail -f /var/log/nginx/access.log
+
+
+
+### Text manipulation
+1) figlet -f block "Linux": Displays "Linux" in a block font.
+2) figlet -f slant "Hello": Displays "Hello" in a slanted style.
