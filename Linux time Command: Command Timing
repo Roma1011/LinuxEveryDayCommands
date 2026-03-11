@@ -1,0 +1,15 @@
+Summary
+In this lab, you explored the time command in Linux, a crucial tool for measuring and optimizing command execution. You learned how to:
+
+Time file operations to assess their performance.
+Measure the execution time of complex scripts.
+Compare the behavior of time with different types of operations (CPU-intensive, I/O-intensive, and mixed).
+These skills will be invaluable as you continue to optimize scripts and analyze performance in your role at TechInnovate.
+
+Remember, when optimizing code:
+
+Look for operations with unexpectedly high execution times.
+Consider both CPU time (user + system) and total time.
+For I/O-bound operations, focus on reducing the gap between total time and CPU time.
+For CPU-bound operations, focus on reducing the user time.
+As you apply these techniques in your work, you'll become more proficient at identifying and resolving performance bottlenecks in your code.
