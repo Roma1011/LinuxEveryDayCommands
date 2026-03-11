@@ -1,0 +1,13 @@
+Summary
+In this lab, you have learned how to use the Linux nl command to add line numbers to text files. Here's a summary of the key concepts covered:
+
+Basic line numbering using the simple nl command
+Customizing the line numbering format with options like -v (starting value), -n (number format), and -w (width)
+Selectively numbering lines with options like -b t (non-empty lines) and -b p'PATTERN' (pattern matching)
+Customizing the separator between line numbers and text with the -s option
+Working with multiple files and creating continuous numbering across files
+Combining nl with other commands using pipes
+Practical applications such as numbering log files for easier reference
+The nl command is a valuable tool for text processing in Linux, especially when you need to reference specific lines in documentation, code reviews, or when analyzing log files. By mastering the various options of nl, you now have a powerful technique to enhance the readability and usability of text-based data.
+
+As you continue your Linux journey, remember that text processing commands like nl, combined with other tools, form the foundation of efficient file manipulation and data processing in the Linux environment.
