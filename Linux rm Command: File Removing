@@ -1,0 +1,16 @@
+Summary
+In this lab, you've learned how to use the rm command in Linux to remove files and directories. You've practiced:
+
+Removing a single file
+Removing multiple files
+Removing directories with the -r option
+Using the -i option for interactive removal
+Remember, the rm command is a powerful tool, but it needs to be used with caution. Unlike graphical interfaces where deleted files often go to a "Trash" folder, rm deletes files permanently. Always double-check your command before pressing Enter, particularly when working with important files or directories.
+
+Some key points to remember:
+
+Use rm filename to remove a single file
+Use rm file1 file2 file3 to remove multiple files
+Use rm -r directory to remove a directory and its contents
+Use rm -i filename for interactive removal, where you'll be asked to confirm each deletion
+As you become more comfortable with rm, you might encounter other useful options like -f (force removal without prompting) or -v (verbose mode, which prints removed files). However, always be extra careful with these advanced options.
