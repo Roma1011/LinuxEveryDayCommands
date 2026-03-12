@@ -1,0 +1,8 @@
+Summary
+In this lab, you've learned how to use the mv command to organize files in a web development project. You've practiced moving files, renaming them, working with multiple files, and using the -i options for safer file operations.
+
+Here are some additional mv command options not covered in the lab:
+
+-f: Force move without prompting for confirmation
+-n: Do not overwrite an existing file
+-v: Verbose mode, explaining what is being done
