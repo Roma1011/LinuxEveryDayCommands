@@ -1,0 +1,18 @@
+Summary
+In this lab, you've mastered the essential uses of the Linux cp command. You've learned how to:
+
+Copy single files
+Copy files to different directories
+Copy multiple files at once
+Use the -i option for interactive copying
+Recursively copy directories with the -r option
+Preserve file attributes with the -p option
+Use wildcards for selective copying
+Additional cp options not covered in this lab include:
+
+-u: Copy only when the source file is newer than the destination file or when the destination file is missing
+-v: Verbose mode, explaining what is being done
+-n: No clobber; do not overwrite an existing file
+-l: Create hard links instead of copying files
+-s: Create symbolic links instead of copying files
+The cp command is a powerful tool for file management in Linux. With these skills, you're now equipped to handle a wide range of file copying tasks efficiently and effectively.
