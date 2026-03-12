@@ -1,0 +1,19 @@
+Summary
+In this lab, we've explored the cd command, your trusty navigation tool in the Linux file system. We've learned how to:
+
+Check our current location using pwd
+Move to the home directory using cd ~
+Navigate to specific directories using relative paths
+Move up in the directory structure with cd ..
+Quickly switch between two directories using cd -
+Use absolute paths for precise navigation
+Have fun with a Linux easter egg by creating and navigating a maze
+Understand additional cd command options
+The cd command has a few more options that can be useful in specific situations:
+
+cd: Without any arguments, this takes you to your home directory.
+cd /: This takes you to the root directory of the entire file system.
+cd $HOME: This is another way to go to your home directory.
+These options provide additional flexibility when navigating your Linux file system. Feel free to try them out!
+
+With these skills, you're now equipped to navigate the Linux file system like a pro! Remember, practice makes perfect. The more you use these commands, the more comfortable you'll become with Linux navigation. Don't be afraid to explore – in Linux, you can always find your way back home with cd ~. Happy exploring in your Linux city!
