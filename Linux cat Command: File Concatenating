@@ -1,0 +1,15 @@
+Summary
+In this tutorial, you learned how to use the cat command for various file operations:
+
+Viewing file contents
+Combining multiple files
+Using options like line numbers (-n) and end-of-line display (-E)
+These skills will be invaluable for managing and manipulating text files in Linux environments. As you continue your Linux journey, you'll find many more uses for the versatile cat command.
+
+Additional cat command options not covered in this tutorial include:
+
+-A: Show all non-printing characters (equivalent to -vET)
+-b: Number non-blank output lines
+-s: Suppress repeated empty output lines
+-T: Display TAB characters as ^I
+-v: Use ^ and M- notation, except for LFD and TAB
