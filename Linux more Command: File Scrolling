@@ -1,0 +1,11 @@
+Summary
+In this lab, you've learned how to use the more command to efficiently navigate large text files. You've explored its basic usage, how to start from specific lines, customize the display, and search for patterns within a file. These skills are crucial for working with large datasets or log files in Linux environments.
+
+Additional more command options not covered in this lab include:
+
+-d: Displays helpful prompts
+-f: Counts logical lines instead of screen lines
+-p: Clears the screen before displaying the page
+-c: Repaints the screen instead of scrolling
+-s: Squeezes multiple blank lines into one
+-u: Suppresses underlining
