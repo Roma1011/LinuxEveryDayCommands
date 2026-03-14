@@ -1,0 +1,11 @@
+Summary
+In this tutorial, you learned how to use the less command to efficiently navigate and analyze large log files. You practiced opening files, scrolling through content, searching for specific information, displaying line numbers, and starting from a specific pattern in the file.
+
+These skills are crucial for system administrators and developers who often need to quickly analyze large log files to troubleshoot issues or monitor system performance.
+
+Other useful less parameters not covered in this tutorial include:
+
+-i: Ignore case in searches
+-F: Quit if the entire file can be displayed on one screen
+-S: Chop long lines instead of wrapping them
++F: Keep reading the file, displaying new contents as they appear (similar to tail -f)
