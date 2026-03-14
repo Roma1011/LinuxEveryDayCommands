@@ -1,0 +1,13 @@
+Summary
+In this lab, we explored the head command, a powerful tool for quickly examining the beginning of files. We learned how to:
+
+Use head to view the first 10 lines of a file by default.
+Customize the number of lines displayed using the -n option.
+Examine multiple files simultaneously with head.
+Combine head with other commands like cut and grep using pipes.
+Use head to efficiently work with large files.
+Additional head parameters not covered in this lab:
+
+-c: Display the first few bytes of a file instead of lines.
+-q: Suppress headers when examining multiple files.
+-v: Always display headers when examining multiple files.
