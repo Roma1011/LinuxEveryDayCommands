@@ -1,0 +1,17 @@
+Summary
+In this tutorial, we explored the nl command and its various options for numbering lines in text files. We learned how to:
+
+Use the basic nl command to add line numbers to a file
+Number all lines, including blank ones, using the -b a option
+Customize the number format with the -n rz option
+Number specific line types using pattern matching
+Combine multiple options for complex numbering schemes
+These skills will help you navigate and reference lines in configuration files, source code, or any text files you work with in your development projects.
+
+Additional nl command options not covered in this tutorial include:
+
+-v NUM: Start numbering at NUM instead of 1
+-i NUM: Increment numbers by NUM instead of 1
+-l NUM: Group NUM lines together and only number the first line of each group
+-f a: Number all header lines (lines before the first body line)
+These options provide even more flexibility when working with the nl command.
