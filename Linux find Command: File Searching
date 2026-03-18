@@ -18,3 +18,16 @@ Additional find command options not covered in this lab include:
 -empty: Find empty files or directories
 -newer: Find files newer than a specified file
 Remember, practice makes perfect. Feel free to experiment with these commands in different directories to become more comfortable with them. The more you use find, the more you'll discover its power and flexibility in helping you locate exactly what you need in a complex file system.
+
+
+
+1) find . -type f -name "*.log" -delete
+2) find . -type f -name "*.log"
+3) find . -type f -name "*.tmp" -print0 | xargs -0 rm -f
+4) find . -type f -name "*.sh" -exec chmod +x {} \;
+5) find . -type f -name "*.log" -exec ls -lh {} \;
+6) find . -type f -name "*.conf" -exec grep -H "proxy_pass" {} \;
+7) find . -type f -name "*.cs" -print0 | xargs -0 grep -n "DbContext"
+8) find . -type f -empty -exec rm -f {} \;
+9) find . -type d -empty -delete
+10) find . -type f -exec du -h {} + | sort -hr | head -10
