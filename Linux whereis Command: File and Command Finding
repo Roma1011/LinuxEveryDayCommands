@@ -1,0 +1,17 @@
+Summary
+In this lab, you've learned how to use the whereis command to locate binary, source, and manual page files for various commands in the Linux system. You've discovered how to:
+
+Find basic information about commands
+Locate binary files using the -b option
+Find manual pages using the -m option
+Combine options to get more comprehensive information
+Search for source files using the -s option
+These skills will prove invaluable in your role as a system administrator, allowing you to quickly locate important files and understand the structure of your Linux system.
+
+Additional whereis command options not covered in this lab include:
+
+-u: Search for unusual entries (files that do not follow the usual naming pattern)
+-B: Change or restrict the places where whereis searches for binaries
+-M: Change or restrict the places where whereis searches for manual pages
+-S: Change or restrict the places where whereis searches for sources
+As you continue your journey in system administration, remember that whereis is just one of many tools at your disposal. It's particularly useful for quick lookups, but for more comprehensive file searches, you might want to explore commands like find or locate in the future.
