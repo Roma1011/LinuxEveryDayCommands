@@ -1,0 +1,20 @@
+Summary
+In this lab, you've learned how to use the grep command to analyze server logs effectively. You've practiced:
+
+Basic pattern matching
+Case-insensitive searches
+Searching across multiple files
+Using regular expressions
+Displaying context around matches
+Inverting matches
+These skills are crucial for system administrators and developers who need to troubleshoot issues by analyzing log files.
+
+Additional grep parameters not covered in this lab include:
+
+-n: Display line numbers along with the matched lines
+-r or -R: Recursively search subdirectories
+-l: Only display the names of files with matching lines
+-w: Match whole words only
+-E: Use extended regular expressions
+-F: Interpret the pattern as a fixed string, not a regular expression
+Remember, practice makes perfect. Try using these grep commands on your own files or logs to become more comfortable with them. Don't be afraid to consult the grep manual (man grep) for more detailed information on these and other options.
