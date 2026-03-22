@@ -1,0 +1,15 @@
+Summary
+In this lab, we explored the wc command in the context of project management. We learned how to:
+
+Count lines in project files to assess their size
+Count words in documentation to gauge its comprehensiveness
+Count characters in source code files to get a rough idea of complexity
+Combine wc options for a comprehensive file analysis
+These techniques can help you quickly assess the size and complexity of different parts of your project, which can be valuable for project planning, resource allocation, and identifying areas that might need refactoring or more detailed review.
+
+The wc command is a versatile tool for quick text analysis. Here are some additional parameters we didn't cover in the lab:
+
+-c: Print the byte counts
+-L: Print the length of the longest line
+--files0-from=F: Read input from the files specified by NUL-terminated names in file F
+Remember, while these metrics can provide useful insights, they should always be considered alongside other factors like code quality, functionality, and project requirements.
