@@ -13,3 +13,13 @@ The wc command is a versatile tool for quick text analysis. Here are some additi
 -L: Print the length of the longest line
 --files0-from=F: Read input from the files specified by NUL-terminated names in file F
 Remember, while these metrics can provide useful insights, they should always be considered alongside other factors like code quality, functionality, and project requirements.
+
+
+view the full list of options for any command in your Linux environment by typing man wc or wc --help in your terminal. Here are the most commonly used options for wc:
+
+-l (lines): Prints the number of lines.
+-w (words): Prints the number of words.
+-c (bytes): Prints the byte counts.
+-m (characters): Prints the character counts.
+-L (max line length): Prints the length of the longest line.
+Pro Tip: You can combine these flags to get multiple statistics at once. For example, running wc -lwc README.md will output the line count, word count, and byte count for that file all in one go!
