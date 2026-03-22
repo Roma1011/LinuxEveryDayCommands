@@ -1,0 +1,23 @@
+Summary
+In this lab, we explored the uniq command in Linux and its application in analyzing customer purchase data. We learned how to:
+
+Prepare data for use with uniq by sorting it first.
+Use uniq to remove duplicate entries from a sorted file.
+Use uniq -c to count occurrences of each unique line.
+Use uniq -d to identify duplicate lines.
+These skills are valuable for data analysis tasks, helping you to efficiently process and extract insights from large datasets.
+
+Additional uniq command options not covered in this lab include:
+
+-u: Display only unique lines (lines that appear exactly once)
+-i: Ignore case when comparing lines
+-f N: Skip the first N fields when comparing lines
+-s N: Skip the first N characters when comparing lines
+-c (--count): Prefixes lines by the number of occurrences.
+-d (--repeated): Only prints duplicate lines (one for each group of repeated lines).
+-D (--all-repeated): Prints all duplicate lines. It displays every instance of lines that appear more than once.
+-u (--unique): Only prints lines that are not repeated (lines that appear exactly once).
+-i (--ignore-case): Ignores case differences when comparing lines ("Apple" and "apple" would be treated as the same).
+-f N (--skip-fields=N): Skips the first N fields (columns) on each line before comparing. Fields are separated by blanks or tabs.
+-s N (--skip-chars=N): Skips the first N characters on each line before comparing.
+-w N (--check-chars=N): Compares no more than N characters per line.
