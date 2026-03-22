@@ -1,0 +1,29 @@
+Summary
+In this lab, you've learned how to use the cut command in Linux to extract specific data from text files. You've practiced:
+
+Extracting single fields from CSV files
+Extracting multiple fields and ranges of fields
+Working with fixed-width data
+Combining cut with other commands like grep
+These skills are invaluable for data processing and analysis in various scenarios, from managing bookstore inventory to handling any kind of structured text data.
+
+Additional cut command parameters not covered in this lab:
+
+-s: Suppress lines not containing delimiters
+--output-delimiter=STRING: Use STRING as the output delimiter
+--complement: Complement the set of selected bytes, characters or fields
+To further your learning, try experimenting with these additional parameters and create your own data files to practice on. Remember, the man cut command provides a comprehensive manual for the cut command if you need more information.
+
+
+While I cannot search the web for external documentation, I can provide you with a summary of the most common and useful cut options right here in your terminal environment.
+
+You can view the full manual at any time by running man cut in your terminal, but here are the key options you can use:
+
+Primary Selection Options
+-c (characters): Specifies the range of characters to extract (e.g., -c 1-5).
+-f (fields): Specifies the fields to extract, usually used with a delimiter (e.g., -f 1,3).
+-d (delimiter): Defines the character used to separate fields (the default is a Tab character).
+Useful Additional Options
+--complement: Extracts everything except the fields or characters you specified.
+-s (only-delimited): Tells cut not to print lines that do not contain the delimiter.
+--output-delimiter=STRING: Changes the character used as the delimiter in the output (allows you to change the format of your retrieved data).
