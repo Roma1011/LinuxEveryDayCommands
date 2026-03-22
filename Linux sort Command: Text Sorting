@@ -1,0 +1,16 @@
+Summary
+In this lab, you've learned how to use the sort command to organize various types of student data. You've explored several useful options:
+
+Basic alphabetical sorting
+Numeric sorting with -n
+Reverse sorting with -r
+Sorting by multiple fields with -k
+Using custom field separators with -t
+Removing duplicates with -u
+Other useful sort options include:
+
+-f: Ignore case when sorting
+-b: Ignore leading blanks
+-c: Check if the input is already sorted
+-o: Write output to a file instead of standard output
+These skills will be invaluable when managing and analyzing data in various professional contexts, not just in educational settings.
