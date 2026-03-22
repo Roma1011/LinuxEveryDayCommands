@@ -1,0 +1,21 @@
+In this lab, we explored the versatile tr command in Linux. We learned how to:
+
+Convert text case
+Delete specific characters
+Translate multiple characters
+Use character classes
+Squeeze repeated characters
+The tr command is a powerful tool for text manipulation. Here are some additional options we didn't cover in detail:
+
+-c: Complement the set of characters in string1, that is, operate on all characters not in string1
+-t: Truncate string1 to the length of string2
+For more advanced text processing tasks, you might want to explore other commands like sed and awk in future labs.
+-c (or --complement): Instead of operating on the characters you specify, it operates on the complement of that set. In other words, it targets every character except those you provided in the first string.
+-d (or --delete): Deletes the characters specified in the set. For example, tr -d 'a-z' will remove all lowercase letters.
+-s (or --squeeze-repeats): Replaces instances of a repeated character with a single instance. This is great for fixing messy formatting, like turning multiple spaces into one space.
+-t (or --truncate): This truncates string1 to the length of string2. It is useful when you are performing a mapping and want to ensure the translation is one-to-one based on the shorter string provided.
+Quick Examples to try:
+Delete digits: cat file.txt | tr -d '[:digit:]'
+Squeeze spaces: cat file.txt | tr -s ' '
+Complement translation (keep only digits): cat file.txt | tr -cd '[:digit:]' (This effectively deletes everything except digits).
+Pro Tip: You can always find the exact manual page for any command inside your terminal by typing man tr. It will give you the most detailed information available directly from your Linux environment.
