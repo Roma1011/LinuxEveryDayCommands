@@ -1,0 +1,18 @@
+In this lab, we explored the Linux diff command in a software development context. We learned how to:
+
+Compare two text files and interpret the basic diff output
+Compare different versions of Python scripts
+Use the unified format for more readable output
+Ignore whitespace changes in comparisons
+Compare entire directories recursively
+Additional diff options not covered in this lab include:
+
+-b: Ignore changes in the amount of whitespace
+-u (Unified Format): Generates a readable output that shows context around the changes. This is the standard format used by version control systems like git.
+-r (Recursive): Compares directories and their subdirectories recursively.
+-w (Ignore Whitespace): Ignores all white space when comparing lines.
+-B (Ignore Blank Lines): Ignores changes that result in inserting or deleting blank lines.
+-i (Ignore Case): Ignores differences in case (treats uppercase and lowercase as the same).
+-y (Side-by-Side): Displays the output in two columns, which is very helpful for visual comparisons.
+-q (Brief): Only reports whether the files differ, without showing the specific changes.
+--color=auto: Differentiates the output with colors, making it much easier to read (as you've already seen in your terminal!).
