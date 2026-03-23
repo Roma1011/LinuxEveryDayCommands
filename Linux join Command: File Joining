@@ -1,0 +1,17 @@
+While the join command has several options, here is a summary of the most commonly used ones:
+
+Basic joining of two files based on a common field
+Customizing the output order using the -o option
+Including unmatched records with the -a option
+Joining on fields other than the first column using the -1 and -2 options
+
+Key join Options
+-1 FIELD: Join on the specified field (column) of the first file.
+-2 FIELD: Join on the specified field (column) of the second file.
+-j FIELD: Equivalent to -1 FIELD -2 FIELD.
+-a FILE_NUMBER: Print unpairable lines from the specified file (where FILE_NUMBER is either 1 or 2).
+-o FORMAT: Obey the specified format for the output (e.g., 1.1 2.2 to show the first column of the first file and the second column of the second file).
+-t CHAR: Use CHAR as the input and output field separator instead of whitespace.
+-i: Ignore case differences when comparing fields.
+-e STRING: Replace missing input fields with the specified STRING.
+-v FILE_NUMBER: Similar to -a, but suppresses the lines that were successfully joined (only shows the unmatched ones).
