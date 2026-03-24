@@ -1,0 +1,36 @@
+Summary
+Congratulations! You've completed this lab on using the AWK command for log analysis. Let's recap what you've learned:
+
+Basic AWK usage: Printing specific fields from a structured text file.
+Filtering data: Using conditions in AWK to select specific log entries.
+Counting and summarizing: Using AWK to generate statistics from log data.
+Creating reports: Writing more complex AWK scripts to generate formatted reports.
+These skills will be invaluable for analyzing log files, processing data, and generating reports in your future work as a system administrator or data analyst.
+
+Here are some additional AWK parameters and features we didn't cover in this lab:
+
+Common awk Command Options
+-F (Field Separator):
+Defines the character used to separate fields in your input. By default, awk uses whitespace.
+Example: awk -F"," '{print $1}' file.csv (uses a comma as a separator).
+
+-v (Assign Variable):
+Allows you to assign a value to a variable before the script execution begins.
+Example: awk -v name="Labby" '{print name, $0}' file.txt.
+
+-f (Read Script from File):
+Tells awk to read the script commands from a specific file rather than the command line.
+Example: awk -f script.awk data.log.
+
+-v (Wait, there's more!):
+If you ever need to see the full list of options available on your specific system, you can always run this command in your terminal:
+
+man awk
+Or use the help flag:
+
+awk --help
+Pro Tip for AWK
+Remember those built-in variables we touched on in the lab? They are also very powerful for logic:
+
+NR: Keeps track of the current Number of Records (line number).
+NF: Keeps track of the Number of Fields in the current line.
