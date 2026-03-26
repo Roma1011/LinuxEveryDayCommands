@@ -1,0 +1,41 @@
+In this lab, we've explored the powerful du command and its applications in managing disk space. We've learned how to:
+
+Use basic du command to estimate disk usage
+Make the output human-readable with the -h option
+Investigate specific directories and limit depth with --max-depth
+Sort and analyze disk usage results
+Find the largest files in a directory
+Generate comprehensive disk usage reports
+These skills are essential for any system administrator or power user managing storage resources.
+
+Additional du options not covered in this lab include:
+
+-s: Display only a total for each argument
+-c: Produce a grand total
+-a: Show disk usage for files as well as directories
+--time: Show the time of last modification for each directory
+--exclude=PATTERN: Exclude files or directories matching PATTERN
+
+
+
+Make the output "human-readable" (KB, MB, GB):
+du -h
+2. Controlling Depth
+Limit the levels of recursion (useful for keeping output clean):
+du -h --max-depth=1
+
+3. Files and Totals
+Include files in the output (by default, du only shows directories):
+du -ah
+Show only the grand total of the current directory:
+du -sh
+Add a grand total line to your summary:
+du -ch
+
+4. Analysis and Sorting
+Sort by size (e-g., find the largest folders first):
+du -h --max-depth=1 | sort -hr
+
+5. Advanced Filtering
+Exclude specific files or folders (e.g., exclude all log files):
+du -h --exclude="*.log"
