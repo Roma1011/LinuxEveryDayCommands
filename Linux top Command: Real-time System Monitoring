@@ -1,0 +1,42 @@
+Key Command-Line Options
+You use these when starting top from the terminal (e.g., top -b):
+
+-b: Batch mode. Useful for sending output to other programs or files (it won't clear the screen or handle keyboard input).
+-n <number>: Number of iterations. Tells top to update the screen X times and then exit.
+-d <seconds>: Delay time. Sets the update interval (e.g., top -d 2).
+-u <username>: Monitor processes owned by a specific user.
+-p <PID>: Monitor only processes with the specified Process IDs.
+-i: Starts top ignoring idle or zombie processes.
+
+
+1. Monitoring a specific user
+If you want to see only the processes owned by the user labex:
+
+top -u labex
+2. Batch mode (for logging to a file)
+If you need to capture the state of your system to a file for later analysis, you can use batch mode. This will run 5 iterations and then save them to a file named sys_stats.txt:
+
+top -b -n 5 > sys_stats.txt
+After running this, you can check the file with cat sys_stats.txt.
+
+3. Setting a custom refresh rate
+By default, top updates every 3 seconds. If you want to see changes faster, for example, every 1 second:
+
+top -d 1
+4. Monitoring a specific process
+If you want to watch the resource usage of a specific process (let’s say its PID is 36), use:
+
+top -p 36
+(You can find the PID of any process in the first column of the standard top display.)
+
+5. Combining options
+You can combine flags to get specific results. For example, to run top for a specific user, in batch mode, for exactly 3 iterations:
+
+top -u labex -b -n 3
+Pro-Tip: Interactive Examples
+Remember, you don't always need flags! Once you run top (just type top), try these keys on your keyboard:
+
+M (Shift + m): Sort processes by Memory usage.
+P (Shift + p): Sort processes by CPU usage (the default).
+c: Show the full command path instead of just the process name.
+q: Quit top.
