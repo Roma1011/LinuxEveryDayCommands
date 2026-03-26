@@ -1,0 +1,21 @@
+In this lab, you've learned how to use the df command to monitor and analyze disk space usage on a Linux system. You've explored various options of the df command, including:
+
+Basic usage of df
+Making output human-readable with -h
+Displaying filesystem types with -T
+Analyzing inode usage with -i
+Combining options for comprehensive analysis
+Focusing on specific filesystems
+Excluding certain filesystem types with -x
+Displaying a total summary with --total
+These skills are crucial for effective system administration and ensuring optimal performance of your Linux servers. As you continue your journey in system administration, you'll find the df command to be an invaluable tool in your toolkit.
+
+Additional df options not covered in this lab include:
+
+-a: Show all filesystems, including pseudo, duplicate, and inaccessible filesystems
+-k: Display sizes in kilobytes (default)
+-m: Display sizes in megabytes
+-P: Use POSIX output format
+--sync: Invoke sync before getting usage info
+-t: Limit listing to filesystems of a specific type
+Remember, while df is powerful, it's just one of many tools available for monitoring disk usage. As you progress in your Linux journey, you might want to explore other commands like du (disk usage), ncdu (NCurses Disk Usage), and various system monitoring tools.
