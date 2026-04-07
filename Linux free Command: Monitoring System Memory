@@ -1,0 +1,30 @@
+Popular free Command Combinations
+
+Human-readable output (Most common):
+free -h
+Displays memory in Gigabytes (Gi) or Megabytes (Mi), making it much easier to read.
+Continuous monitoring:
+free -s 2
+
+Updates the memory statistics every 2 seconds. Press Ctrl+C to stop it.
+Monitor for a specific number of times:
+free -s 2 -c 5
+
+Updates every 2 seconds, but stops automatically after 5 updates.
+Show Total memory (including swap):
+free -h -t
+
+Adds a "Total" row at the bottom that summarizes your physical memory and swap.
+View in Gigabytes:
+free -g
+
+Useful if you want to see large memory values in a cleaner, whole-number format (GB).
+Quick Summary of Options
+Option	Description
+-h	Human-readable (auto-scales to B, K, M, G).
+-m	Display in Megabytes (MiB).
+-g	Display in Gigabytes (GiB).
+-s [sec]	Repeat output every specified number of seconds.
+-c [count]	Repeat output a specific number of times.
+-t	Show the total row.
+-w	Wide output mode (prevents text from wrapping on smaller screens).
